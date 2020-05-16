@@ -251,7 +251,7 @@ trid树按照广度优先序列化，每个node都存储key，value，offset， 
 RoaringBitmap解决了实际场景下hbase存储浪费的问题，又通过进一步的压缩数据。数据存储可以进一步降低。
 ```
 
-![image-20200427165559803](https://github.com/chenchen0829/mydoc/image/image-20200427165559803.png)
+![image-20200427165559803](https://github.com/chenchen0829/mydoc/blob/master/image/image-20200427165559803.png)
 
 #### HLL
 
