@@ -1,3 +1,4 @@
+## 加载图片需要绑定host: 199.232.28.133  raw.githubusercontent.com
 ## OLAP
 
 ```
