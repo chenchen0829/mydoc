@@ -169,7 +169,7 @@ kylin2.3版本之后增加了一些准实时的场景，kylin3.0版本增加了�
 下面的例子就是10个维度，按照rowkey的排序，组成一个二进制的数据(存储到hbase中的是二进制转long)，第一个维度存储在数据中第10个为主.  rowkey的结构 sharedKey(均衡每个region的数据) + Cuboid(rowkeybit数组转换的long) + 具体的维度值byte， 所有的字段都是先编码，再计算成long。
 ```
 
-![image-20200515153016858](https://github.com/chenchen0829/mydoc/image/image-20200515153016858.png)
+![image-20200515153016858](https://github.com/chenchen0829/mydoc/blob/master/image/image-20200515153016858.png?raw=true)
 
 
 
@@ -223,7 +223,7 @@ trid树按照广度优先序列化，每个node都存储key，value，offset， 
 
 ```
 
-![image-20200515171747603](https://github.com/chenchen0829/mydoc/image/image-20200515171747603.png?raw=true)
+![image-20200515171747603](https://github.com/chenchen0829/mydoc/blob/master/image/image-20200515171747603.png?raw=true)
 
 
 
